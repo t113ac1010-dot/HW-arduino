@@ -1,0 +1,25 @@
+void setup() {
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);// turn the RED LED off
+  delay(500);
+  digitalWrite(5, LOW);
+  digitalWrite(4, LOW);
+  delay(500);// wait for a second
+  digitalWrite(5, HIGH);
+  digitalWrite(4, HIGH);
+  delay(500);
+digitalWrite(3, LOW);
+  digitalWrite(4, LOW);// turn the RED LED on
+  delay(500);// wait for a second
+
+  // put your main code here, to run repeatedly:
+}
